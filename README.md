@@ -25,7 +25,7 @@ Created By @radmanplays, With Support From The Community
 Visit The [Releases](https://github.com/radmanplays/Eaglermodpack/releases) Page To Download The Latest WASM Build. Updates Are Released Periodically And Do Not Follow A Fixed Schedule.
 
 ## How To Enable/Disable Mods?
-In EaglerModpack 1.12.2 The Way To Enable Or Disable Mods Is Eesier Than You Think.
+In EaglerModpack 1.12.2 The Way To Enable Or Disable Mods Is Easier Than You Think.
 
 ### In Order To Change Mods Emabled
 
