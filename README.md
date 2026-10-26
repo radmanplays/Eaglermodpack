@@ -25,10 +25,21 @@ Created By @radmanplays, With Support From The Community
 Visit The [Releases](https://github.com/radmanplays/Eaglermodpack/releases) Page To Download The Latest WASM Build. Updates Are Released Periodically And Do Not Follow A Fixed Schedule.
 
 ## How To Enable/Disable Mods?
-In EaglerModpack 1.12.2 The Way To Enable Or Disable Mods Is Easier Than You Think.
+You can add a EaglercraftXOpt array at the start of the html named "mods" and put the modid of the mod(s) you'd like to be loaded:
 
-### In Order To Change Mods Emabled
-
+```javascript
+window.eaglercraftXOpts = {
+    container: "game_frame",
+    worldsDB: "worlds",
+    relays: [
+        { addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId == 0 },
+        { addr: "wss://relay.lax1dude.net/", comment: "lax1dude relay #2", primary: relayId == 1 },
+        { addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId == 2 }
+    ],
+    mods: ["melonlib", "create", "jei", "waila"]
+};
+```
+if the array does not exist(which it doesn't by default) the game will automatically loads every mod
 
 ## Dedicated Server Setup
 EaglerModpack 1.12.2 Is One Of The Few Eaglercraft FML (Forge) Implementations To Have Full Server Support
