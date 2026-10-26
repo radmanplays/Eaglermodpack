@@ -27,6 +27,8 @@ Visit The [Releases](https://github.com/radmanplays/Eaglermodpack/releases) Page
 ## How To Enable/Disable Mods?
 In EaglerModpack 1.12.2 The Way To Enable Or Disable Mods Is Eesier Than You Think.
 
+### In Order To Change Mods Emabled
+
 
 ## Dedicated Server Setup
 EaglerModpack 1.12.2 Is One Of The Few Eaglercraft FML (Forge) Implementations To Have Full Server Support
